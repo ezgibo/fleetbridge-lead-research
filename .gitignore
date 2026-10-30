@@ -1,0 +1,65 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+*service-account*.json
+*service_account*.json
+secrets.*
+.secrets/
+
+# Python and notebook working files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+myenv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Databases, datasets, and generated research artifacts
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.xlsx
+*.xls
+*.zip
+*.tar*
+data/
+datasets/
+phase3_outputs/
+results/
+outputs/
+logs/
+*.log
+*.html
+*.har
+
+# Downloaded models and local runtime files
+.ollama/
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# Operating system and editor files
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.bak
+~$*
